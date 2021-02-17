@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('images/e331d4b3282dc3a2f3c3946c72d5aaef.jpg');
+    background-repeat:no-repeat ;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    background-size: cover ;
+    background-attachment: fixed;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+.flex-blackjack-row-1,  .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-2{
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1 div{
+    padding: 10px;
+    text-align: center;
+    height: 467px;
+    flex: 1;
+}
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+table, th ,td{
+    padding: 5px;
+    border: 1px solid black;
+
+}
